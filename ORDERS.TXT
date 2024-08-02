@@ -4,10 +4,10 @@ Customer Email: helenz1@windowslive.com
 Order No: 100
 Order Date dd/mm/yyyy: 2/8/2024
 
-No Description       Quantity   Price    Value 
-======= =============== ========  ======  ====== 
-  100   Karekla grafeiou    2      34.99   69.98
-  500   Bibliothiki         1      89.99   89.99
+No  Description     Quantity  Price   Value 
+=== =============== ========  ======  ====== 
+100 Karekla grafeiou    2      34.99   69.98
+500 Bibliothiki         1      89.99   89.99
 
-                   Total Purchase Amount: 159.97
+                Total Purchase Amount: 159.97
                            Shipping Cost: 20

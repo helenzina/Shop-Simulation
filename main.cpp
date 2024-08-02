@@ -50,13 +50,13 @@ void processInfo(Order orderID, ofstream &outfile)
 	outfile << "Order No: " << orderID.getOrderNo() << endl;
 	outfile << "Order Date dd/mm/yyyy: " << orderID.getOrderDate() << endl;
 	outfile << endl;
-	outfile << "No ";
-	outfile << "Description       ";
+	outfile << "No  ";
+	outfile << "Description     ";
 	outfile << "Quantity  ";
-	outfile << " Price  ";
-	outfile << "  Value ";
+	outfile << "Price  ";
+	outfile << " Value ";
 	outfile << endl;
-	outfile << "======= ";
+	outfile << "=== ";
 	outfile << "=============== ";
 	outfile << "======== ";
 	outfile << " ====== ";
@@ -179,8 +179,8 @@ int searchItem(Item itemArr[], int n, int searchCode)
 void processFile(Item itemArr[], int pos, int qty, ofstream &outfile)
 {
 
-	outfile << "  " << itemArr[pos].getItemNo()
-			<< "  " << itemArr[pos].getItemDesc()
+	outfile << itemArr[pos].getItemNo()
+			<< itemArr[pos].getItemDesc()
 			<< setw(3) << qty
 			<< setw(11) << itemArr[pos].getItemPrice()
 			<< setw(8) << qty * itemArr[pos].getItemPrice()
@@ -190,7 +190,7 @@ void processFile(Item itemArr[], int pos, int qty, ofstream &outfile)
 void processShipping(Order orderID, ofstream &outfile)
 {
 	outfile << endl;
-	outfile << setw(42) << "Total Purchase Amount: ";
+	outfile << setw(39) << "Total Purchase Amount: ";
 	outfile << orderID.getTotalAmount();
 	outfile << endl;
 	outfile << setw(42) << "Shipping Cost: ";
