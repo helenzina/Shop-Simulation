@@ -1,0 +1,53 @@
+# Project: Shop-Simulation
+# Makefile configured for MSYS2
+
+# Define the compiler
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+
+# Define the object files
+OBJ      = main.o Customer.o Item.o Order.o
+LINKOBJ  = $(OBJ)
+
+# Define the output executable
+BIN      = Shop-Simulation.exe
+
+# Define the include directories
+INCS     = -I"C:/msys64/ucrt64/include" -I"C:/msys64/ucrt64/include/c++/13.2.0"
+
+# Define the library directories
+LIBS     = -L"C:/msys64/ucrt64/lib" -L"C:/msys64/ucrt64/x86_64-w64-mingw32/lib" -static-libgcc
+
+# Define the compiler and linker flags
+CXXFLAGS = $(INCS)
+CFLAGS   = $(INCS)
+
+# Define the clean command
+RM       = rm -f
+
+.PHONY: all clean
+
+# Default target
+all: $(BIN)
+
+# Clean target
+clean:
+	$(RM) $(OBJ) $(BIN)
+
+# Link the executable
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+# Compile object files
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+Customer.o: Customer.cpp
+	$(CPP) -c Customer.cpp -o Customer.o $(CXXFLAGS)
+
+Item.o: Item.cpp
+	$(CPP) -c Item.cpp -o Item.o $(CXXFLAGS)
+
+Order.o: Order.cpp
+	$(CPP) -c Order.cpp -o Order.o $(CXXFLAGS)
