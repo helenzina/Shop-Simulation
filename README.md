@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://m.media-amazon.com/images/I/510WmeXkLXL.png"/>
+<img src="https://media.istockphoto.com/id/1206806317/vector/shopping-cart-icon-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=1RRQJs5NDhcB67necQn1WCpJX2YMfWZ4rYi1DFKlkNA="/>
 <h3 align="center">Shop Simulation</h3>
 <p align="center">
 In terminal Using C++
@@ -60,7 +60,7 @@ To run Shop Simulation, just run the already provided executable **Shop-Simulati
 
 ## Troubleshooting
 
-**ONLY FOR THE FIRST RUN METHOD**
+**ONLY FOR THE FIRST RUN METHOD** <br>
 This project was created using GCC C++ compiler (g++) and GDB debugger from mingw-w64. If you don't have any C++ compiler installed in your computer, follow this <a href="https://www.youtube.com/watch?v=DMWD7wfhgNY">tutorial</a>.
 
  ## Usage
@@ -72,9 +72,6 @@ Here are some examples of the application running:
     <td>
     Items List <br>
      <img src="https://github.com/helenzina/Shop-Simulation/blob/main/screenshots/items.png" title="items"/>
-<sub>
-<b>Helen Zina (Me)</b>
-</sub>
     </td>
   </tr>
   <tr>
