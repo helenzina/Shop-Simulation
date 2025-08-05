@@ -29,11 +29,9 @@ The Shop Simulation project is a terminal-based application. The simulation mimi
  
 <p>Please follow the following steps for successful installation:</p>
 
-1. Install <a href="https://code.visualstudio.com/">Visual Studio Code</a> for the IDE. 
-   
-2. Clone the repo
+1. **Clone the repo**.
    ```sh
-   gh repo clone helenzina/Shop-Simulation
+   git clone https://github.com/helenzina/Shop-Simulation
    ```
 
 ## Features
@@ -73,14 +71,10 @@ Here are some examples of the application running:
     Items List <br>
      <img src="https://github.com/helenzina/Shop-Simulation/blob/main/screenshots/items.png" title="items"/>
     </td>
-  </tr>
-  <tr>
     <td>
     Customer's Information  <br>
      <img src="https://github.com/helenzina/Shop-Simulation/blob/main/screenshots/info.png" title="info"/>
     </td>
-  </tr>
-  <tr>
     <td>
     Customer's Order  <br>
      <img src="https://github.com/helenzina/Shop-Simulation/blob/main/screenshots/order.png" title="order"/>
@@ -91,14 +85,10 @@ Here are some examples of the application running:
     Checking If Item Code Exists <br>
      <img src="https://github.com/helenzina/Shop-Simulation/blob/main/screenshots/check.png" title="check"/>
     </td>
-  </tr>
-  <tr>
     <td>
     Finishing Order <br>
      <img src="https://github.com/helenzina/Shop-Simulation/blob/main/screenshots/finish.png" title="finish"/>
     </td>
-  </tr>
-  <tr>
     <td>
     Order's Receipt <br>
      <img src="https://github.com/helenzina/Shop-Simulation/blob/main/screenshots/receipt.png" title="receipt"/>
@@ -137,4 +127,4 @@ If you have any questions or suggestions, feel free to reach out to me:
 
  ## Acknowledgments
 
-The resources that helped me through this whole process were my professor's notes from the course mentioned above.
+The resources that helped me through this whole process were my professor's notes for this course.
